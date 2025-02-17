@@ -56,7 +56,7 @@ const blogPostSchema = new mongoose.Schema({
     default: null,
   },
 }, {
-  timestamps: true, // Automatically adds 'createdAt' and 'updatedAt' fields
+  timestamps: true,
 });
 
 module.exports = mongoose.model('BlogPost', blogPostSchema);
